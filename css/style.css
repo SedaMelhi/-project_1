@@ -3951,7 +3951,7 @@ body {
   }
 
   .header-top-right__button .plus {
-    margin: 0 10px 0 0;
+    margin: 0 15px 0 0;
   }
 
   .nav .address {
@@ -4435,7 +4435,7 @@ body {
   }
 
   .aside {
-    width: 75%;
+    width: 300px;
     padding: 40px;
   }
 
@@ -5110,12 +5110,7 @@ body {
   }
 
   .nav__footer .header-top-right__button {
-    width: 100%;
     font-size: 12px;
-  }
-
-  .aside {
-    padding: 24px 32px;
   }
 
   .nav__block {
@@ -5187,13 +5182,6 @@ body {
   }
 }
 
-@media screen and (max-width: 365px) {
-  .nav__footer .header-top-right__button {
-    width: 100%;
-    padding: 12px 15px;
-  }
-}
-
 @media screen and (max-width: 354px) {
   .search-options__text {
     padding: 13px 8px;
@@ -5213,11 +5201,6 @@ body {
 
   .phone-window-line .btn {
     margin-top: 24px;
-  }
-
-  .nav__footer .header-top-right__button {
-    width: 100%;
-    padding: 12px 15px;
   }
 
   .aside {
