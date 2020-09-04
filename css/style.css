@@ -3104,13 +3104,15 @@ body {
   }
 
   .header-top-right__button {
+    padding: 8px 18px;
+    width: auto;
     height: 26px;
     font-size: 8px;
-    line-height: 26px;
+    line-height: 10px;
   }
 
   .header-top-right__button .plus {
-    margin: 0 13px 0 19px;
+    margin: 0 8px 0 0;
   }
 
   .hamburger {
