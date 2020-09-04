@@ -1217,7 +1217,8 @@ body {
 .header-top-right__button .plus {
   font-size: 24px;
   font-size: 22px;
-  font-weight: 200;
+  font-weight: 100;
+  font-family: 'Proxima Nova Light';
 }
 
 .search-options {
@@ -3109,7 +3110,7 @@ body {
   .header-top-right__button {
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    width: 150px;
+    width: 155px;
     white-space: nowrap;
     height: 26px;
     font-size: 8px;
