@@ -3105,7 +3105,7 @@ body {
 
   .header-top-right__button {
     padding: 8px 18px;
-    width: 146px;
+    width: 150px;
     height: 26px;
     font-size: 8px;
     line-height: 10px;
@@ -3942,7 +3942,7 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 215px;
+    width: 220px;
     font-size: 12px;
     line-height: 15px;
     padding: 12px 24px;
