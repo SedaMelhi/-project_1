@@ -1194,9 +1194,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 212px;
   height: 39px;
   background: #fff;
@@ -1215,8 +1215,8 @@ body {
 }
 
 .header-top-right__button .plus {
-  font-size: 24px;
-  font-size: 22px;
+  margin-right: 16px;
+  font-size: 18px;
   font-weight: 100;
   font-family: 'Proxima Nova Light';
 }
@@ -3086,6 +3086,10 @@ body {
     height: 445px;
   }
 
+  .header-top-right__button .plus {
+    margin-right: 8px;
+  }
+
   .header-two {
     max-width: 768px;
     height: 201px;
@@ -3108,8 +3112,6 @@ body {
   }
 
   .header-top-right__button {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
     width: 155px;
     white-space: nowrap;
     height: 26px;
@@ -3928,6 +3930,10 @@ body {
     height: 262px;
   }
 
+  .header-top-right__button .plus {
+    margin-right: 16px;
+  }
+
   .header {
     height: 736px;
     background-size: 100% 100%;
@@ -3942,12 +3948,6 @@ body {
   }
 
   .nav__footer .header-top-right__button {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     width: 230px;
     white-space: nowrap;
     font-size: 12px;
@@ -3959,10 +3959,6 @@ body {
   .nav__footer {
     font-size: 12px;
     line-height: 15px;
-  }
-
-  .header-top-right__button .plus {
-    margin: 0;
   }
 
   .nav .address {
